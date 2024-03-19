@@ -1,7 +1,6 @@
 header{
     height: 80px;
-    background-color: blueviolet;
-    line-height: 80px;
+    background-color: rgb(111, 47, 166);
 }
 body{
     margin: 0;
@@ -10,19 +9,26 @@ body{
 a{text-decoration: none;}
 .headerNav{
     display: inline-block;
-    width: 70%;
-    text-align: center;
     
 }
 .navMenu{
 
 }
 .workFieldHeader{
+    display: flex;
     width: 90%;
+    height: 80px;
     margin: auto;
+    justify-content: space-between;
+    align-items: center;
     
 }
 .headerIcons{
+    justify-content: center;
     display: inline;
     float: right;
+}
+.mainIcon{
+    margin-top: 5px;
+    
 }
