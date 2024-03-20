@@ -8,11 +8,8 @@ body{
 }
 a{text-decoration: none;}
 .headerNav{
-    display: inline-block;
-    
-}
-.navMenu{
-
+    display: flex;
+    justify-content: center;
 }
 .workFieldHeader{
     display: flex;
@@ -24,11 +21,25 @@ a{text-decoration: none;}
     
 }
 .headerIcons{
-    justify-content: center;
-    display: inline;
+    
+    display: flex;
     float: right;
+    width: auto;
+    margin-top: 2px;
+    justify-content: center;
+    margin-right: 3%;
 }
 .mainIcon{
     margin-top: 5px;
-    
+}
+.cartIcon{
+    display: flex;
+    margin-left: 40%;
+}
+.headerText{
+margin-left: 10%;
+}
+a{
+    text-decoration: none;
+    color: white;
 }
