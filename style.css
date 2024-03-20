@@ -6,10 +6,16 @@ body{
     margin: 0;
     padding: 0;
 }
+main{
+    display: flex;
+    justify-content: center;
+    
+}
 a{text-decoration: none;}
 .headerNav{
     display: flex;
     justify-content: center;
+    margin-right: 4%;
 }
 .workFieldHeader{
     display: flex;
@@ -18,10 +24,9 @@ a{text-decoration: none;}
     margin: auto;
     justify-content: space-between;
     align-items: center;
-    
+white-space: nowrap;    
 }
 .headerIcons{
-    
     display: flex;
     float: right;
     width: auto;
@@ -42,4 +47,31 @@ margin-left: 10%;
 a{
     text-decoration: none;
     color: white;
+}
+.textFrame1{
+    width: 50%;
+    align-items: center;
+}
+.phones{
+    display: flex;
+    width: 90%;
+    height: 34.5em;
+    font-family: "Readex Pro", sans-serif;
+    font-optical-sizing: auto;
+    
+    font-style: normal;
+    border-radius: 25px;
+    background-color: rgb(220, 229, 226);
+    margin-top: 2%;
+}
+.imgFrame1{
+
+}
+.headText{
+    margin-top: 5.2em;
+    margin-left: 2em;
+    font-size: 180%;
+}
+.secondaryText{
+    
 }
