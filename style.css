@@ -1,6 +1,5 @@
 header{
     height: 80px;
-    background-color: rgb(111, 47, 166);
 }
 body{
     margin: 0;
@@ -9,22 +8,26 @@ body{
 main{
     display: flex;
     justify-content: center;
-    
 }
-a{text-decoration: none;}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
 .headerNav{
     display: flex;
-    justify-content: center;
-    margin-right: 4%;
+    margin-left: 22%;
+    margin-bottom: 0.2%;
 }
 .workFieldHeader{
     display: flex;
     width: 90%;
     height: 80px;
     margin: auto;
-    justify-content: space-between;
     align-items: center;
-white-space: nowrap;    
+    white-space: nowrap;    
 }
 .headerIcons{
     display: flex;
@@ -32,7 +35,7 @@ white-space: nowrap;
     width: auto;
     margin-top: 2px;
     justify-content: center;
-    margin-right: 3%;
+    margin-left: 33.7%;
 }
 .mainIcon{
     margin-top: 5px;
@@ -41,12 +44,17 @@ white-space: nowrap;
     display: flex;
     margin-left: 40%;
 }
-.headerText{
-margin-left: 10%;
+.headerProducts{
+    margin-right: 12.4%;
 }
-a{
-    text-decoration: none;
-    color: white;
+.headerTextSolutions{
+margin-right: 11.6%;
+}
+.vectorHeader{
+    padding-left: 3%;
+}
+.headerAbout{
+    margin-right: 14.6%;
 }
 .textFrame1{
     width: 50%;
@@ -74,4 +82,13 @@ a{
 }
 .secondaryText{
     
+}
+.explore{
+    display: flex;
+    height: 50px;
+    width: 170px;
+    border-radius: 50px;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
 }
