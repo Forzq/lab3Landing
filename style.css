@@ -61,14 +61,12 @@ margin-right: 11.6%;
     align-items: center;
 }
 .phones{
+    position: relative;
     display: flex;
     width: 90%;
     height: 34.5em;
     font-family: "Readex Pro", sans-serif;
-    font-optical-sizing: auto;
-    
-    font-style: normal;
-    border-radius: 25px;
+    border-radius: 35px;
     background-color: rgb(220, 229, 226);
     margin-top: 2%;
 }
@@ -76,12 +74,16 @@ margin-right: 11.6%;
 
 }
 .headText{
-    margin-top: 5.2em;
-    margin-left: 2em;
-    font-size: 180%;
+    font-size: 58px;
+    font-weight: 400;
+    margin-top: 2.47em;
+    margin-left: 8.7%;
+    
 }
 .secondaryText{
-    
+    margin-left: 8.7%;
+    margin-top: 2.2%;
+    font-size: 16px;
 }
 .explore{
     display: flex;
@@ -91,4 +93,34 @@ margin-right: 11.6%;
     border: 1px solid black;
     justify-content: center;
     align-items: center;
+    margin-left: 8.7%;
+    margin-top: 4.3%;
+    font-size: 18px;
+}
+.leftVector{
+position: absolute;
+top: 47.3%;
+margin-left: 1.4%;
+}
+.rightVector{
+    position: absolute;
+    
+    top: 47.3%;
+    right: 0;
+    margin-right: 1.4%;
+}
+.hotbarPhones{
+    display: flex;
+    position: absolute;
+    height: 15%;
+    width: 100%;
+    bottom: 0;
+    justify-content: center;
+    align-items: center
+}
+.firstRec{
+    margin-right: 2.5%;
+}
+.secondRec{
+    margin-right: 2.8%;
 }
