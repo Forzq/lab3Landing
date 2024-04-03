@@ -4,7 +4,7 @@ header{
 body{
     margin: 0;
     padding: 0;
-    width: 1440px;
+    width: 100%;
 }
 main{
     display: flex;
@@ -131,18 +131,77 @@ margin-left: 1.4%;
 }
 .textShopOur{ 
     font-family: "Readex Pro", sans-serif;
+    width: 85.2%;
 }
-.textShopOur h1{
-    font-size: 250%;
+.textShopOur h3{
+    font-size: 260%;
     font-weight: 450;
+    line-height: 1%;
 }
 .textShopOur p{
-    font-size: 100%;
+    font-size: 88.3%;
 
 }
 .shopOur{
+    width: 93.75%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-top: 4%;
+}
+.firstPics2{
+    flex-direction: column;
+}
+.fourPictures{display: flex;
+    flex-direction: row;
+}
+.firstPicDiv{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 472px;
+    width: 639px;
+    background-color: rgb(90, 94, 94);
+}
+.firstPicWithText{
+    width: 555px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+.firstPicText b{
+font-size: 150%;
+line-height: 0%;
+font-family: "Readex Pro", sans-serif;
+}
+.firstPicText{
+    width: 100%;
+    text-align: right;
+    height: 95px;
+    font-family: "Readex Pro", sans-serif;
+}
+.firstPic{
+    width: 500px;
+}
+.secondPicDiv{
+    margin-top: 72px;
+    height: 270px;
+    width: 639px;
+    background-color: rgb(119, 172, 172);
+}
+.secondPicWithText{
+    width: 555px;
+    align-items: center;
+    display: flex;
+}
+.secondPic{
+width: 381px;
+}
+.secondPics2{
+    background-color: blanchedalmond;
+    width: 312px;
+    height: 792px;
+    font-family: "Readex Pro", sans-serif;
 }
