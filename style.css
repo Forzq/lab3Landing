@@ -117,17 +117,17 @@ margin-left: 1.4%;
     height: 15%;
     width: 80%;
     bottom: 0;
-    top:62%;
+    top:61.2%;
     left:10.5%;
     justify-content: center;
     align-items: center;
     gap:1%;
 }
 .firstRec{
-    margin-right: 2.5%;
+    margin-right: 2.1%;
 }
 .secondRec{
-    margin-right: 2.8%;
+    margin-right: 2.4%;
 }
 .shopOur{
     width: 93.75%;
@@ -140,8 +140,9 @@ margin-left: 1.4%;
 }
 .fourPictures{display: flex;
     flex-direction: row;
-    gap:2%;
+    gap: 1.3%;
     margin-top: 4.5%;
+    margin-right: 1.1%;
 }
 .textShopOur{ 
     font-family: "Readex Pro", sans-serif;
@@ -166,8 +167,9 @@ margin-left: 1.4%;
     display: flex;
     height: 472px;
     width: 639px;
-    background-color: rgb(90, 94, 94);
-    box-shadow:  2px 2px 2px 2px black;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3),
+    -5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 .firstPicWithText{
     width: 555px;
@@ -176,9 +178,15 @@ margin-left: 1.4%;
     align-items:flex-start;
 }
 .firstPicText b{
-font-size: 150%;
-line-height: 0%;
+font-size: 200%;
+line-height: 50%;
 font-family: "Readex Pro", sans-serif;
+font-weight: 400;
+margin-top: 200%;
+}
+.firstPicText p{
+    margin: 0;
+    line-height: 90%;
 }
 .firstPicText{
     width: 100%;
@@ -186,6 +194,7 @@ font-family: "Readex Pro", sans-serif;
     height: 95px;
     font-family: "Readex Pro", sans-serif;
 }
+
 .firstPic{
     width: 500px;
 }
@@ -193,7 +202,9 @@ font-family: "Readex Pro", sans-serif;
     margin-top: 72px;
     height: 270px;
     width: 639px;
-    background-color: rgb(119, 172, 172);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3),
+    -5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 .secondPicWithText{
     width: 555px;
@@ -212,7 +223,7 @@ width: 381px;
 .secondPics2{
     display: flex;
     flex-direction: row;
-    gap: 2%;
+    gap: 3%;
 }
 .secondText{
     width: 175px;
@@ -230,43 +241,59 @@ width: 381px;
     font-size: 200%;
 }
 .thirdPic{
-    background-color: blanchedalmond;
-    width: 312px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3),
+    -5px 5px 10px rgba(0, 0, 0, 0.3);
+    width: 322px;
     height: 792px;
     align-items: center;
     display: flex;
-    justify-content: center;
 }
 .thirdPicWithText{
     display: flex;
     flex-direction: column;
     height: 63.7%;
-    gap:5%;
     width: 100%;
 }
 .thirdPicWithText img{
-    display: flex;
-    float: inline-end;
-    width:100%;
-    justify-content: flex-end;
+    width:94%;
+    margin-left: auto;
 }
 .thirdText b{
     font-size: 220%;
     font-weight: 450;
+    margin: 3%;
 }
 .thirdText p{
-    line-height: 1px;
+    margin: 0%;
     font-weight: 450;
 }
 .thirdText{
     font-family: "Readex Pro", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
 .fourthPic{
-    background-color: blanchedalmond;
-    width: 312px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3),
+    -5px 5px 10px rgba(0, 0, 0, 0.3);
+    width: 320px;
     height: 792px;
     align-items: center;
     display: flex;
     justify-content: center;
     flex-direction: column-reverse;
+    
+}
+.fourthPicWithText{
+    display: flex;
+    flex-direction: column;
+    height: 63.7%;
+    width: 100%;
+    margin-bottom: 31%;
+}
+.fourthText{
+
 }
