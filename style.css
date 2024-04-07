@@ -182,10 +182,10 @@ font-size: 200%;
 line-height: 50%;
 font-family: "Readex Pro", sans-serif;
 font-weight: 400;
-margin-top: 200%;
 }
 .firstPicText p{
     margin: 0;
+    padding-bottom: 2%;
     line-height: 90%;
 }
 .firstPicText{
@@ -202,6 +202,8 @@ margin-top: 200%;
     margin-top: 72px;
     height: 270px;
     width: 639px;
+    display: flex;
+    justify-content: center;
     background-color: rgb(255, 255, 255);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3),
     -5px 5px 10px rgba(0, 0, 0, 0.3);
@@ -216,6 +218,7 @@ margin-top: 200%;
     display: flex;
     justify-content: end;
     align-items: end;
+
 }
 .secondPic{
 width: 381px;
@@ -228,13 +231,14 @@ width: 381px;
 .secondText{
     width: 175px;
     height: 95px;
+    padding-bottom: 2.5%;
     text-align: end;
     font-family: "Readex Pro", sans-serif;
 }
 .secondText p{
     font-size: 100%;
     font-weight: 450;
-    line-height: 1px;
+    margin: 0%;
 }
 .secondText b{
     font-weight: 450;
@@ -260,13 +264,13 @@ width: 381px;
     margin-left: auto;
 }
 .thirdText b{
-    font-size: 220%;
+    font-size: 200%;
     font-weight: 450;
-    margin: 3%;
+    margin: 0%;
 }
 .thirdText p{
     margin: 0%;
-    font-weight: 450;
+    font-weight: 400;
 }
 .thirdText{
     font-family: "Readex Pro", sans-serif;
@@ -274,6 +278,7 @@ width: 381px;
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    padding-top: 14%;
 }
 .fourthPic{
     background-color: rgb(255, 255, 255);
@@ -281,19 +286,71 @@ width: 381px;
     -5px 5px 10px rgba(0, 0, 0, 0.3);
     width: 320px;
     height: 792px;
-    align-items: center;
     display: flex;
+    align-items: center;
     justify-content: center;
-    flex-direction: column-reverse;
+
     
 }
 .fourthPicWithText{
     display: flex;
     flex-direction: column;
-    height: 63.7%;
+    height: 71%;
     width: 100%;
-    margin-bottom: 31%;
 }
+.fourthPicWithText p{
+margin: 0;
+font-weight: 350;
+line-height: 90%;
+}
+.fourthPicWithText b{
+    margin: 0;
+    font-size: 200%;
+    font-weight: 500;
+    }
 .fourthText{
+    font-family: "Readex Pro", sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 
+}
+.fourthPicWithText img{
+padding-top: 12%;
+}
+.frame3{
+    width: 1350px;
+    height: 606px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5.9%;
+    flex-direction: column;
+}
+.frame3Text{
+    font-family: "Readex Pro", sans-serif;
+    width: 95.6%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 154px;
+    font-size: 247%;
+}
+.frame3Text b{
+
+}
+.frame3Text p{
+    font-weight: 400;
+    margin: 0.8%;
+    font-size: 34.5%;
+}
+.frame3GridContainer{
+    width: 95.6%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Создаем 4 равные колонки */
+    grid-gap: 10px;
+}
+.frame3Item{
+    background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
 }
