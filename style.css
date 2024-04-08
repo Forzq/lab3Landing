@@ -322,8 +322,8 @@ padding-top: 12%;
     width: 1350px;
     height: 606px;
     display: flex;
-    justify-content: center;
-    margin-top: 5.9%;
+    align-items: center;
+    margin-top: 5.3%;
     flex-direction: column;
 }
 .frame3Text{
@@ -332,7 +332,7 @@ padding-top: 12%;
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 154px;
+    height: 126px;
     font-size: 247%;
 }
 .frame3Text b{
@@ -347,10 +347,31 @@ padding-top: 12%;
     width: 95.6%;
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* Создаем 4 равные колонки */
-    grid-gap: 10px;
+    font-family: "Readex Pro", sans-serif;
+    grid-gap: 2.3%;
 }
 .frame3Item{
     background-color: #f1f1f1;
-  padding: 20px;
-  text-align: center;
+    
+    margin: 0;
+    text-align: center;
+}
+.frame3Item img{
+    padding: 10px;
+}
+.frame2ItemText{
+    margin-left: 0;
+    text-align:start;
+    font-size: 128%;
+    padding-top: 8.4%;
+}
+.frame2ItemText b{
+    
+}
+.frame2ItemText small{
+    font-size: 67%;
+}
+.frame2ItemText p{
+    line-height: 130%;
+    font-size: 87%;
 }
