@@ -117,7 +117,7 @@ margin-left: 1.4%;
     height: 15%;
     width: 80%;
     bottom: 0;
-    top:61.2%;
+    top:62.8%;
     left:10.5%;
     justify-content: center;
     align-items: center;
@@ -179,14 +179,14 @@ margin-left: 1.4%;
 }
 .firstPicText b{
 font-size: 200%;
-line-height: 50%;
+line-height: 100%;
 font-family: "Readex Pro", sans-serif;
 font-weight: 400;
 }
 .firstPicText p{
     margin: 0;
     padding-bottom: 2%;
-    line-height: 90%;
+    line-height: 60%;
 }
 .firstPicText{
     width: 100%;
@@ -350,28 +350,40 @@ padding-top: 12%;
     font-family: "Readex Pro", sans-serif;
     grid-gap: 2.3%;
 }
+
 .frame3Item{
     background-color: #f1f1f1;
     
     margin: 0;
     text-align: center;
 }
+
+
 .frame3Item img{
     padding: 10px;
 }
 .frame2ItemText{
     margin-left: 0;
     text-align:start;
-    font-size: 128%;
+    
     padding-top: 8.4%;
 }
 .frame2ItemText b{
-    
+    font-size: 128%;
 }
-.frame2ItemText small{
-    font-size: 67%;
+.textMiddle{
+    font-size: 85%;
+    line-height: 120%;
+    margin-top: 13px;
 }
-.frame2ItemText p{
-    line-height: 130%;
-    font-size: 87%;
+.dengi{
+    line-height: 110%;
+    font-size: 115%;
+    margin: 0;
+    margin-top: 27px;
+}
+.dengi2{
+    line-height: 75%;
+    font-size: 115%;
+    margin: 0;
 }
