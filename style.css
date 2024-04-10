@@ -320,10 +320,9 @@ padding-top: 12%;
 }
 .frame3{
     width: 1350px;
-    height: 606px;
     display: flex;
     align-items: center;
-    margin-top: 5.3%;
+    padding-top: 5.3%;
     flex-direction: column;
 }
 .frame3Text{
@@ -352,8 +351,6 @@ padding-top: 12%;
 }
 
 .frame3Item{
-    background-color: #f1f1f1;
-    
     margin: 0;
     text-align: center;
 }
@@ -386,4 +383,200 @@ padding-top: 12%;
     line-height: 75%;
     font-size: 115%;
     margin: 0;
+}
+.frame4{
+align-items: center;
+margin-top: 5%;
+width: 100%;
+text-align: center;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.frame4Text{
+    font-family: "Readex Pro", sans-serif;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.frame4Text p{
+    font-weight: 500;
+    font-size: 77%;
+    margin-right: 3%;
+}
+.frame4Text b{
+    font-size: 262%;
+    font-weight: 400;
+    white-space: nowrap;
+}
+.frame4GridContainer{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Создаем 4 равные колонки */
+    font-family: "Readex Pro", sans-serif;
+    grid-gap: 28px;
+    padding-top: 3%;
+}
+.frame4GridContainer > div{
+    border-radius: 20px;
+    background-color: rgb(248,249,250);
+    margin: 0;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.frame4FirstText{
+font-size: 82%;
+align-items: center;
+margin: 0;
+margin-top: 10%;
+}
+.frame4MiddleText{
+    font-size: 174%;
+    font-weight: 400;
+}
+.buttonExplore{
+    display: flex;
+    height: 50px;
+    width: 190px;
+    border-radius: 50px;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    margin-top: 7.5%;
+}
+.img1Frame4{
+padding-top: 7%;
+}
+.frame5{
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column;
+    width: 90%;
+    margin-top: 5.1%;
+}
+.frame5Main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Создаем 4 равные колонки */
+    font-family: "Readex Pro", sans-serif;
+    grid-gap: 20px;
+    padding-top: 3.4%;
+}
+.frame5GridItem p{
+    font-size: 147%;
+    line-height: 120%;
+    margin-top: 2.2%;
+    margin-bottom: 5%;
+}
+.frame5ItemDiv{
+
+}
+.frame5MiniPic{
+    font-family: "Readex Pro", sans-serif;
+    font-size: 160%;
+    margin-top: 5%;
+    display: flex;
+    white-space: nowrap;
+}
+.frame6{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 5.3%;
+    font-family: "Readex Pro", sans-serif;
+}
+.frame6 b{
+    font-size: 257%;
+    font-weight: 500;
+}
+.search{
+    display: flex;
+    width: 650px;
+    height: 60px;
+    border-radius: 50px;
+    border: 1px solid black;
+    align-items: center;
+    margin-top: 2%;
+}
+.searchItems{
+    display:flex;
+    padding-left: 2.6%;
+}
+.searchItems p{
+    padding-left: 15%;
+    white-space: nowrap;
+    font-size: 87%;
+}
+.searchMenu{
+    width: 660px;
+    height: 98px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.2%;
+}
+.firstLineMenu{
+    display: flex;
+    flex-direction: row;
+    gap:0.9%;
+    align-items: center;
+    margin-left: 9%;
+    font-size: 85%;
+}
+.secondLineMenu{
+    display: flex;
+    flex-direction: row;
+    gap:0.9%;
+    align-items: center;
+    margin-left: 17.2%;
+    font-size: 85%;
+    margin-top: 1%;
+}
+.Iphone{
+    width: 90px;
+    height: 42px;
+}
+.buttons{
+    border-radius: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 42px;
+}
+.Charger{
+    width: 98px;
+    height: 42px;
+}
+.Gift{
+    width: 68px;
+    height: 42px;
+}
+.Google{
+    height: 42px;
+    width: 142px;
+}
+.Keyboard{
+    width: 109px;
+    height: 42px;
+}
+.ProMax{
+    width: 118px;
+}
+.iPhone12{
+    width: 109px;
+}
+.Laptop{
+    width: 91px;
+}
+.Mobile{
+    width: 89px;
 }
