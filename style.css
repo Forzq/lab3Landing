@@ -1,3 +1,4 @@
+@media screen and (max-width:1440px) {
 header{
     height: 80px;
 }
@@ -35,7 +36,6 @@ a{
 .headerIcons{
     display: flex;
     float: right;
-    width: auto;
     margin-top: 2px;
     justify-content: center;
     margin-left: 33.7%;
@@ -80,7 +80,6 @@ margin-right: 11.6%;
     font-weight: 400;
     margin-top: 2.47em;
     margin-left: 8.7%;
-    
 }
 .secondaryText{
     margin-left: 8.7%;
@@ -319,7 +318,7 @@ line-height: 90%;
 padding-top: 12%;
 }
 .frame3{
-    width: 1350px;
+    width: 93.75%;
     display: flex;
     align-items: center;
     padding-top: 5.3%;
@@ -354,15 +353,20 @@ padding-top: 12%;
     margin: 0;
     text-align: center;
 }
-
-
+.frame3Item3{
+    margin: 0;
+    text-align: center;
+}
+.frame3Item4{
+    margin: 0;
+    text-align: center;
+}
 .frame3Item img{
     padding: 10px;
 }
 .frame2ItemText{
     margin-left: 0;
     text-align:start;
-    
     padding-top: 8.4%;
 }
 .frame2ItemText b{
@@ -414,12 +418,22 @@ flex-direction: column;
 .frame4GridContainer{
     width: 90%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Создаем 4 равные колонки */
+    grid-template-columns: repeat(3, 1fr);
     font-family: "Readex Pro", sans-serif;
     grid-gap: 28px;
     padding-top: 3%;
 }
-.frame4GridContainer > div{
+.gridItem4 {
+    border-radius: 20px;
+    background-color: rgb(248,249,250);
+    margin: 0;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.gridItem4_3 {
     border-radius: 20px;
     background-color: rgb(248,249,250);
     margin: 0;
@@ -463,7 +477,7 @@ padding-top: 7%;
 }
 .frame5Main{
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Создаем 4 равные колонки */
+    grid-template-columns: repeat(2, 1fr);
     font-family: "Readex Pro", sans-serif;
     grid-gap: 20px;
     padding-top: 3.4%;
@@ -601,12 +615,10 @@ padding-top: 7%;
 .frame7Text p{
     font-size: 97.6%;
     margin: 2%;
-    white-space: nowrap;
     margin-left: 0;
 }
 .frame7Text{
     padding-top: 0.8%;
-    
 }
 .frame7img{
     width: 233px;
@@ -649,13 +661,8 @@ padding-top: 7%;
     grid-template-columns: 2fr 1fr 1fr 1fr 1fr; /* Определяем ширину колонок */
     grid-gap: 28px;
 }
-.footerContacts > div{
-    
-    display: flex;
-    justify-content: start;
-}
-footer{
 
+footer{
     margin-top: 0.9%;
     padding-top: 55px;
     background-color: #F8F9FA;
@@ -674,6 +681,12 @@ footer{
 .footerText{
     display: flex;
     flex-direction: column;
+    justify-content: start;
+}
+.footerText1{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
 }
 .footerText b{
     font-size: 138%;
@@ -707,4 +720,152 @@ margin-top: 110px;
 }
 .footerP1{
     display: flex;
+}
+}
+@media screen and (max-width:1272px) {
+    .hotbarPhones{
+        display: none;
+    }
+    .headText{
+        margin-top: 0.8em;
+        font-size: 3rem;
+    }
+    .headerIcons{
+        display: flex;
+        float: right;
+        margin-top: 2px;
+        justify-content: center;
+        margin-left: 23.7%;
+    }
+    .fourthPic{
+        display: none;
+    }
+    .frame3Item4{
+        display: none;
+    }
+    .textFrame1{
+        padding-left: 2%;
+    }
+    .frame3GridContainer{
+        width: 95.6%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* Создаем 4 равные колонки */
+        font-family: "Readex Pro", sans-serif;
+        grid-gap: 2.3%;
+    }
+}
+
+@media screen and (max-width:1272px) {
+    .phones{
+        height: 25em;
+    }
+    .headText{
+        font-size: 2rem;
+        font-weight: 400;
+        margin-top: 2.47em;
+        margin-left: 8.7%;
+    }
+    .secondaryText{
+        margin-top: 2%;
+    }
+    .headerNav{
+        display: none;
+    }
+    .textShopOur h3{
+        font-size: 200%;
+        font-weight: 450;
+        margin-bottom: 0.2%
+    }
+    .textShopOur p{
+        margin-top: 5%;
+    }
+    .footerContacts{
+    
+        width: 90%;
+        display: grid;
+        grid-template-columns: 2fr 1fr; /* Определяем ширину колонок */
+        grid-gap: 28px;
+    }
+    .footerText1{
+        display: none;
+    }
+    .frame3GridContainer{
+        width: 95.6%;
+        display: flex;
+        flex-direction: column;
+        font-family: "Readex Pro", sans-serif;
+        grid-gap: 2.3%;
+    }
+    .frame3Item3{
+        display: block;
+    }
+    .frame3Item4{
+        display: block;
+    }
+}
+@media screen and (max-width:768px) {
+    .frame3Item4{
+        display: none;
+    }
+    .thirdPic{
+        display: none;
+    }
+    .headerIcons{
+        display: none;
+    }
+    .headerProducts{
+        margin-right: 8.4%;
+    }
+    .headerAbout{
+        margin-right: 8.6%;
+    }
+    .imgFrame1{
+        display: none;
+    }
+    .leftVector{
+       display: none;
+        }
+    .rightVector{
+        display: none;
+    }
+    .headText{
+        font-size: 58px;
+        font-weight: 400;
+        margin-top: 2.47em;
+        margin-left: 8.7%;
+    }
+    .headerNav{
+        margin-left: 17%;
+    }
+    .textFrame1{
+        width: 100%;
+        align-items: center;
+    }
+    .frame3GridContainer{
+        width: 95.6%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        font-family: "Readex Pro", sans-serif;
+        grid-gap: 2.3%;
+    }
+    .frame3Item3{
+        display: none;
+    }
+    .frame4GridContainer{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .gridItem4_3{
+        display: none;
+    }
+    .frame5Main{
+        display: flex;
+        flex-direction: column;
+    }
+    .frame7Text{
+        width: 90%;
+        height: 130px;}
+    .frame7Text p{
+        font-size: 85.6%;
+        
+    }
 }
