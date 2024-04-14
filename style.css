@@ -831,7 +831,7 @@ margin-top: 110px;
     .headText{
         font-size: 58px;
         font-weight: 400;
-        margin-top: 2.47em;
+        margin-top: 1em;
         margin-left: 8.7%;
     }
     .headerNav{
@@ -866,6 +866,5 @@ margin-top: 110px;
         height: 130px;}
     .frame7Text p{
         font-size: 85.6%;
-        
     }
 }
