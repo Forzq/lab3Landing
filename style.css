@@ -1,4 +1,4 @@
-@media screen and (max-width:1920px) {
+
 header{
     height: 80px;
 }
@@ -43,6 +43,21 @@ a{
 .mainIcon{
     margin-top: 5px;
 }
+@keyframes fadeOut {
+    0% {
+      opacity: 1; 
+    }
+    100% {
+      opacity: 0; 
+    }
+  }
+.mainIcon:hover{
+    animation: fadeOut 0.5s ease-in-out forwards;
+}
+.mainIcon:active{
+    transition: transform 0.3s ease;
+    transform: translateX(-140px);
+}
 .cartIcon{
     display: flex;
     margin-left: 40%;
@@ -81,6 +96,10 @@ margin-right: 11.6%;
     margin-top: 2.47em;
     margin-left: 8.7%;
 }
+.headText:hover{
+    color:white;
+    transition: color 10s ease;
+}
 .secondaryText{
     margin-left: 8.7%;
     margin-top: 2.2%;
@@ -97,6 +116,11 @@ margin-right: 11.6%;
     margin-left: 8.7%;
     margin-top: 4.3%;
     font-size: 18px;
+    cursor: pointer;
+}
+.explore:hover{
+    background: rgb(124, 143, 143);
+    transition: background-color 0.6s ease;
 }
 .leftVector{
 position: absolute;
@@ -464,8 +488,20 @@ margin-top: 10%;
     font-size: 18px;
     margin-top: 7.5%;
 }
+.buttonExplore:hover{
+    transition: transform 0.3s ease;
+    transform: scale(1.2);
+}
+.buttonExplore:active{
+    transition: transform 0.2s ease;
+    transform: translateY(20px);
+}
 .img1Frame4{
 padding-top: 7%;
+}
+.img1Frame4:hover{
+    transition: transform 0.3s ease;
+    transform: scale(1.2);
 }
 .frame5{
     display: flex;
@@ -654,10 +690,15 @@ padding-top: 7%;
     border-bottom-right-radius: 50px; 
     font-size: 87%;
 }
+.signUpButon:hover{
+    background: #F8F9FA;
+    color: black;
+    transition: background-color 1s ease, color 1s ease; 
+}
 .footerContacts{
     width: 90%;
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr 1fr; /* Определяем ширину колонок */
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr; 
     grid-gap: 28px;
 }
 
@@ -681,6 +722,14 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: start;
+}
+.footerText1:hover{
+    transition: transform 1s ease;
+    transform: rotate(360deg);
+}
+.footerText0:hover{
+    transition: transform 1s ease;
+    transform: rotate(360deg);
 }
 .footerText1{
     display: flex;
@@ -720,7 +769,7 @@ margin-top: 110px;
 .footerP1{
     display: flex;
 }
-}
+
 @media screen and (max-width:1272px) {
     .hotbarPhones{
         display: none;
@@ -729,6 +778,7 @@ margin-top: 110px;
         margin-top: 0.8em;
         font-size: 3rem;
     }
+   
     .headerIcons{
         display: flex;
         float: right;
