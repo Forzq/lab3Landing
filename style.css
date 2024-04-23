@@ -52,6 +52,7 @@ a{
     align-items: center;
     white-space: nowrap;    
 }
+.brPhones{display: none;}
 .headerIcons{
     display: flex;
     float: right;
@@ -561,10 +562,6 @@ padding-top: 7%;
     grid-gap: 20px;
     padding-top: 3.4%;
 }
-.frame5Main:hover{
-    display: flex;
-    flex-direction: row-reverse;
-}
 .frame5GridItem p{
     font-size: 147%;
     line-height: 120%;
@@ -701,6 +698,9 @@ padding-top: 7%;
     margin: 2%;
     margin-left: 0;
 }
+.brFrame7{
+    display: none;
+}
 .frame7Text{
     padding-top: 0.8%;
 }
@@ -727,7 +727,6 @@ padding-top: 7%;
     font-size: 86%;
     width: 71.25%;
     justify-content: start;
-    
 }
 .signUpButon{
     background-color: black;
@@ -905,6 +904,62 @@ margin-top: 110px;
     }
 }
 @media screen and (max-width:768px) {
+    .phones{
+        width: 100%;
+    }
+    .headText{
+        font-size: 58px;
+        font-weight: 400;
+        margin-top: 1em;
+        margin-left: 7.7%;
+    }
+    .explore{
+        height: 63px;
+        margin-left: 7.7%;
+        margin-top: 2%;
+    }
+    .frame5ItemDiv{
+        margin-left: 2%;
+    }
+    .headerNav{
+        margin-left: 17%;
+    }
+    .secondaryText{
+        margin-left: 7.7%;
+        margin-top: 2%;
+    }
+    .frame5MiniPic{
+        font-family: "Readex Pro", sans-serif;
+        font-size: 160%;
+        margin-top: 5.8%;
+        display: flex;
+        white-space: nowrap;
+    }
+    .frame7{
+        width: 100%;
+        height: 425px;
+    }
+    .frame7Text{
+        padding-top: 3.5%;
+    }
+    .frame7Text p{
+        margin: 1.5%;
+        margin-left: 0%;
+    }
+    .frame7Email p{
+        display: block;
+        margin-left: 8%;
+        font-size: 86%;
+        width: 71.25%;
+        justify-content: start;
+    }
+    .brFrame7{
+        display: block;
+    }
+    .textFrame1{
+        width: 100%;
+        align-items: center;
+    }
     .frame3Item4{
         display: none;
     }
@@ -929,18 +984,9 @@ margin-top: 110px;
     .rightVector{
         display: none;
     }
-    .headText{
-        font-size: 58px;
-        font-weight: 400;
-        margin-top: 1em;
-        margin-left: 8.7%;
-    }
-    .headerNav{
-        margin-left: 17%;
-    }
-    .textFrame1{
-        width: 100%;
-        align-items: center;
+    .frame7Email{
+        width: 28%;
+        margin-top: 0.7%;
     }
     .frame3GridContainer{
         width: 95.6%;
@@ -958,6 +1004,9 @@ margin-top: 110px;
     .gridItem4_3{
         display: none;
     }
+    .frame5GridItem img{
+        margin-left: 2%;
+    }
     .frame5Main{
         display: flex;
         flex-direction: column;
@@ -968,10 +1017,16 @@ margin-top: 110px;
     .frame7Text p{
         font-size: 85.6%;
     }
+    footer{
+        margin-top: 0;
+    }
 }
 @media screen and (max-width:320px) { /*gkmdfgdfmgkdfmkgmfdlkg*/
     .headerNav{
         display: none;
+    }
+    .mainIcon{
+        margin-left: 2%;
     }
     .secondaryText{
         
@@ -980,6 +1035,31 @@ margin-top: 110px;
         display: flex;
         justify-content: center;
         font-size: 200%;
+        margin-left: 9%;
+    }
+    .secondaryText{
+        margin-left: 9%;
+    }
+    .brPhones{
+        display: block;
+    }
+    .explore{
+        height: 57px;
+        margin-left: 9%;
+    }
+    .textShopOur{
+        margin-left: 2.5%;
+        margin-top: 0.2%;
+    }
+    .firstPicDiv{
+        height: 303px;
+    }
+    .firstPic {
+        width: 263px;
+    }
+    .firstPics2{
+        margin-top: 1%;
+        margin-left: 1%;
     }
     .firstPicDiv{
         width: 100%;
@@ -1008,10 +1088,6 @@ margin-top: 110px;
         text-align: right;
         
         font-family: "Readex Pro", sans-serif;
-    }
-    
-    .firstPic{
-        width: 90%;
     }
     .secondPicDiv{
         margin-top: 52px;
