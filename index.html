@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>site</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap" rel="stylesheet">
@@ -13,22 +14,23 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 </head>
-<body>
-    <header>
+<body >
+    <header id="ALL PRODUCTS" class="open">
         <div class="workFieldHeader">
 
             <div class = "mainIcon">
         <img  src="IMAGE.svg" alt="icon"> 
             </div>
                 <nav class="headerNav">
-                    <a class = "headerProducts" href="#">ALL PRODUCTS</a>
+                    <a class = "headerProducts" href="#ALLPRODUCTS">ALL PRODUCTS</a>
                     <div class = "headerTextSolutions">
-                        <a   href="#">SOLUTIONS</a>
+                        <a   href="#SOLUTIONS">SOLUTIONS</a>
                         <img class="vectorHeader" src="/Vector.svg" alt="vector">
                     </div>
-                    <a class = "headerAbout" href="#">ABOUT</a>
-                    <a class = "" href="#">SUPPORT</a> 
+                    <a class = "headerAbout" href="#ABOUT">ABOUT</a>
+                    <a class = "SUPPORT" href="#SUPPORT">SUPPORT</a> 
                 </nav>
+                <img class="burgerMenu" id="burgerMenu" src="/3388823.png" alt="sad">
             <div class="headerIcons">
                 <div class="search_icon"><img src="search_icon.svg" alt="search_icon"></div>
                 <div class="cartIcon">
@@ -72,7 +74,7 @@
                 </div>
             </div>
         </div>
-        <div class="shopOur">
+        <div id = "SOLUTIONS" class="shopOur">
             <div class="textShopOur">
                 <h3>Shop our latest offers and categories</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -206,7 +208,7 @@
                     </div>
                 </div>
             </div>
-            <div class="frame5MiniPic">
+            <div id="ABOUT" class="frame5MiniPic">
                 See All
                 <img src="/vector5.svg" alt="mgg">
             </div>
@@ -284,7 +286,7 @@
             </div>
             
         </div>
-        <div class="footer1">
+        <div id="SUPPORT" class="footer1">
                <div class="footerP1"> <p>Made By: Azwedo</p><img src="/IMAGE1.svg" alt="dsd"></div>
                <div class="footerP2"> <p>Powered by: Webflow</p><img src="/IMAGE1.svg" alt="dfd"></div>
         </div>

@@ -11,6 +11,9 @@ body{
     padding: 0;
     width: 100%;
 }
+.burgerMenu{
+    display: none;
+}
 /* body:hover{
     
     animation: colorAnimation 0.1s infinite, rotateAnimation 0.1s infinite;
@@ -883,7 +886,7 @@ margin-top: 110px;
     
         width: 90%;
         display: grid;
-        grid-template-columns: 2fr 1fr; /* Определяем ширину колонок */
+        grid-template-columns: 2fr 1fr;
         grid-gap: 28px;
     }
     .footerText1{
@@ -921,8 +924,62 @@ margin-top: 110px;
     .frame5ItemDiv{
         margin-left: 2%;
     }
-    .headerNav{
-        margin-left: 17%;
+    .headerNav {
+        width: 40%;
+        display: flex;
+        position: absolute;
+        right: -386px;
+        flex-direction: column;
+        z-index: 30;
+        background-color: blanchedalmond;
+        top: 0; /* Пример: 60px - высота заголовка */
+        padding: 40px; /* Пространство вокруг текста */
+        font-size: 30px;
+        transition: transform .5s;
+     }
+     header.open .headerNav{
+        display: flex;
+        transform: translateX(-100%);
+     }
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Затемнение */
+    z-index: 10; /* Устанавливаем z-index, чтобы overlay был над headerNav */
+    pointer-events: none; /* Делаем overlay непрозрачным для кликов */
+}
+
+header.open {
+    overflow: hidden; /* Предотвращаем прокрутку под меню */
+}
+    /*.burger_menu_overlay{
+        display: none;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 10;
+    } */
+    .headerTextSolutions a{
+    
+    }
+    .headerNav a{
+        font-size: 30px;
+        margin: 30px;
+    }
+    .vectorHeader{
+        display: none;
+    }
+    .burgerMenu{
+        width: 70px;
+        display: block;
+       margin-left: 65%;
+       z-index: 40;
     }
     .secondaryText{
         margin-left: 7.7%;
@@ -969,12 +1026,12 @@ margin-top: 110px;
     .headerIcons{
         display: none;
     }
-    .headerProducts{
+     .headerProducts{
         margin-right: 8.4%;
     }
-    .headerAbout{
-        margin-right: 8.6%;
-    }
+    .headerAbout a{
+        margin-bottom: 0;
+    } 
     .imgFrame1{
         display: none;
     }
@@ -1027,6 +1084,11 @@ margin-top: 110px;
     }
     .headerNav{
         display: none;
+    }
+    .burgerMenu{
+        width: 55px;
+        display: block;
+       margin-left: 20%;
     }
     .mainIcon{
         margin-left: 2%;
